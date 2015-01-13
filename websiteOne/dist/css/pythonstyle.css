@@ -1,0 +1,72 @@
+body 
+{
+	background-color: SteelBlue;
+	font-family: 'Iceland', sans-serif;
+	color: SteelBlue;
+}
+
+h1 
+{
+	color: DarkBlue;
+	font-size: 56px;
+	font-weight: 400;
+	
+}
+
+.container 
+{
+	
+}
+
+.featurette-divider 
+{
+	border-color: DarkBlue;
+}
+
+.jumbotron 
+{
+
+	background-image: url("../../images/robot.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.jumbotron h1 
+{
+	font-family: 'Trade Winds', sans-serif;
+
+}
+
+.jumbotron p 
+
+{
+	font-size: 24px;
+	font-weight: 200;
+}
+
+#header 
+{
+	
+}
+
+#bkg 
+{
+	background-color: LightYellow;
+}
+
+#rowz 
+{
+	background-color: LightYellow;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 10px;
+	border-right: 10px;
+	border-color: #DF0101;
+}
+
+#info 
+{
+	font-size: 30px;
+}

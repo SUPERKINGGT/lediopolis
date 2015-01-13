@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+    	<link rel="icon" href="../../favicon.ico">
+
+    	<title>CSharp Page</title>
+
+    	<!-- loading site fonts -->
+    	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+
+    	<!-- Bootstrap core CSS -->
+    	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    	<!-- Custom styles for this template -->
+	    <link href="dist/css/cSharpStyle.css" rel="stylesheet">
+
+    	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    	<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+	</head>
+
+	<body>
+	<div class="container">
+		<h1 id="pageTitle"> CSharp Page </h1>	
+		<div id="squanchDiv">
+		<div class="jumbotron" id="SquanchBanner" >
+    	  	<div class="container">
+        		<h1>SQUANCH</h1>
+        		<p id="smalldesc"> 2D Action/Adventure Game</p>
+ 	       		<p><a class="btn btn-primary btn-lg" href="https://github.com/CS426/Team01" role="button">Access Github Repository &raquo;</a></p>
+      		</div>
+    	</div>
+		
+		<embed id="sqVid" width="560" height="315" src="https://www.youtube.com/v/qlNVQDjH7YQ" type="application/x-shockwave-flash"> </embed>
+		
+    	<hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Fight for the fate of the world!</h2>
+          <p class="lead">  Squanch was a 2d game created in Unity with C# code. SQUANCH takes place in 
+			the post-apocalyptic 1990’s (as imagined by the 1980s).
+			SQUANCH is designed to look and feel like an old arcade game in the vein of Contra.
+			If the above video does not load, here is the trailer URL: https://www.youtube.com/watch?v=qlNVQDjH7YQ
+			</p>
+        </div>
+		</div>
+      </div>
+	
+      <hr class="featurette-divider">
+	
+	<div id="splatDiv">
+	<div class="jumbotron" id="SplatTitle">
+    	  	<div class="container">
+        		<h1>SPLAT</h1>
+        		<p id="smalldesc"> Kinect driven data visualization</p>
+ 	       		<p><a class="btn btn-primary btn-lg" href="https://github.com/Hardikp16/CS340" role="button">Access Github Repository &raquo;</a></p>
+      		</div>
+    	</div>
+		<div id="everythingbelow">
+    	<hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Kinect motion based navigation</h2>
+          <p class="lead">SPLAT is a Kinect Driven data visualization of public transportation deaths and accidents over a ten year span.
+		  The program was written in Visual Studio using C# and WPF, and the Microsoft Kinect SDK to navigate.
+		  The initial screen is a simple title menu that explains the idea of the project while the Kinect interface loads.
+		  Once loaded, a hand icon appears on the screen and can be moved and gestured with the user’s hand.
+		  Pushing the screen navigates into the main view. The Main view represents the base class of the program, and all of the possible functionality.
+		  Navigating and moving your hand forward on the USA STATS button opens up a new window with a graph of the overall deaths and accidents in the US over the last decade.
+		  The regions are all color coded.  Hovering over any of the regions makes it pop forward, and pushing in opens a new region window with individual stats and states.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/main-page.png" alt="main ui">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/reg.png" alt="green sky">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> Clear, organized Visualizations </h2>
+          <p class="lead">The Region window inherits from the main window and adds to the functionality with a back button on the top left, a Regional Stats button, and individual states.
+		  Navigating to different states was too cumbersome on the region itself so the scroll bar proved more efficient and functional.
+		  The user can hover over, grab, and drag to scroll across the list of states, or push in to select a state.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> Comprehensive Information</h2>
+          <p class="lead">State windows inherit from the STATS windows and display graphs as well as buttons to navigate to the main window, or the region in which the state belongs.
+		  The graphs show the user recent accident and death data for public transportation for every state</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/stats.png" alt="black with text">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+	</div>
+	</div>
+	<div id="breakoutDiv">
+	<div class="jumbotron" id="breakoutJumbo">
+    	  	<div class="container">
+        		<h1>Breakout</h1>
+        		<p id="smalldesc"> A clone of the popular Atari game Breakout!</p>
+ 	       		<p><a class="btn btn-primary btn-lg" href="https://github.com/CS426/ClassWork" role="button">Access Github Repository &raquo;</a></p>
+      		</div>
+    	</div>
+		<div id="everythingbelow">
+    	<hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Retro UI</h2>
+          <p class="lead"> My version of Breakout was designed to play like a modern Breakout while invoking the atmosphere of an 80's cult film</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/unity1.png" alt="main ui">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/unity2.png" alt="green sky">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> Varied level design </h2>
+          <p class="lead">I wanted the levels to be strange and unique, this one is a robot with Domo Arigato in the background</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> Multiple levels</h2>
+          <p class="lead"> Altough the game is a simple tech demo, I added multiple levels that the user can reach by destroying all of the blocks.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/unity3.png" alt="black with text">
+        </div>
+      </div>
+	  </div>
+
+      <hr class="featurette-divider">
+	</div>
+      <!-- /END THE FEATURETTES -->
+  
+        </div>
+		
+		
+		
+      </div>
+
+      <div class="container">
+        <a class="btn btn-default" href="index.html" role="button" id="homebutton">Home</a>
+      </div>
+		
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="../../dist/js/bootstrap.min.js"></script>
+    	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+</html>

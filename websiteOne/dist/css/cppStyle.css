@@ -1,0 +1,77 @@
+body 
+{
+	font-family: 'Iceland', sans-serif;
+	background-color: #101010;
+	color: #F000AC
+}
+
+#pageTitle 
+{
+	color: #6FFF00;
+}
+
+.container 
+{
+	
+}
+
+#smalldesc 
+{
+	color: white;
+}
+
+#everythingbelow 
+{
+	background-color: #181818;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container h1
+{
+	
+	padding-bottom: 20px;
+	font-size: 56px;
+	font-weight: 100;
+}
+
+p 
+{
+	color: #00BFFF;
+}
+
+.featurette-divider 
+{
+	border-color: #00BFFF;
+}
+
+a.btn 
+{
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #60b044;
+	background-image: -webkit-linear-gradient(#8add6d, #60b044);
+	background-image: linear-gradient(#8add6d, #60b044);
+	background-repeat: repeat-x;
+	border-color: #5ca941;
+}
+
+#homebutton 
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.jumbotron 
+{
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+background-color: #181818;
+background-image: url("../../images/fsbg.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}

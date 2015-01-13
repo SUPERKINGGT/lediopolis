@@ -1,0 +1,79 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+
+  background-image: url("../../images/tree4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #121212;
+}
+
+.navbar 
+{
+	background-color: #101010;
+	margin-bottom: 300px;
+	margin-top: 300px;
+	font-family: 'Iceland';
+	font-size: 26px;
+}
+
+.navbar-inverse .navbar-nav li a 
+{
+	color: cornsilk;
+}
+
+.navbar-inverse .navbar-brand 
+{
+	color: cornsilk;
+	font-size: 48px;
+}
+
+#cpp 
+{
+	color: #6FFF00;
+
+}
+
+#cs
+{
+	color: #00BFFF;
+}
+
+#java
+{
+	color: #FF4105;
+}
+
+#python
+{
+	color: #FFFF00;
+}
+
+#html
+{
+	color:  #FF00FF;
+}
+
+#photo
+{
+	color: #993CF3;
+}
+
+#blurb 
+{
+	color: cornsilk;
+	font-size: 16px;
+	font-family: "Iceland", sans-serif;
+	font-weight: 350;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+footer 
+{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Iceland';
+	padding-top: 700px;
+}

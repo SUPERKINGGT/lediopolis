@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+    	<link rel="icon" href="../../favicon.ico">
+
+    	<title>Python Page</title>
+
+    	<!-- loading site fonts -->
+    	<link href='http://fonts.googleapis.com/css?family=Iceland|Trade+Winds' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    	<!-- Bootstrap core CSS -->
+    	<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    	<!-- Custom styles for this template -->
+	    <link href="dist/css/pythonstyle.css" rel="stylesheet">
+
+    	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    	<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+	</head>
+
+	<body>
+	<div class="container" id="bkg">
+		<div id="header">
+		<h1 id="pageTitle"> PYTHON </h1>	</div>
+		<div class="jumbotron">
+    	  	<div class="container">
+        		<h1>The Killbot!</h1>
+        		
+ 	       		<p><a class="btn btn-primary btn-lg" href="https://twitter.com/DalekPi" role="button"> Visit Twitter Page &raquo;</a></p>
+      		</div>
+    	</div>
+		
+		<p id="info"> An automated security camera turret powered by the Raspberry Pi and Driven by Python</p>  
+		
+    	<hr class="featurette-divider">
+
+      <div class="row featurette" id="rowz">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Easy touch-friendly UI</h2>
+          <p class="lead">Mission Statement: Build a two camera security turret that monitors an area and takes surveillance photos when motion is detected.   Upload those photos to twitter automatically and alert the home owner view tweet.
+
+- Loose stream of thought instructions
+
+Materials:
+
+Raspberry Pi
+
+USB hub – powered
+
+Mouse / Keyboard / Wifi Dongle
+
+Logitech Webcam
+
+Canon SLR
+
+What I did:
+
+Connect to your Pi – preferably learn to SSH into your Pi for convenience down the road.
+
+Open your terminal and download Motion.  Motion is fantastic because it simplifies a good deal of the work.  The Raspberry Pi with Raspbian isn’t an ideal candidate for motion as higher frame rates and resolutions really strain the processor but for a proof of concept project it does alright.  I’ve heard others have had more success with Arch Linux on the Pi but have not tested.  Motion will detect the Logitech webcam and automatically run the server.  Edit the motion script to react to significant pixel shifts in the video stream and run a python script.  Since video is simply a string of photos played in succession, you can have success writing a python script that compares pixel values of consecutive images and detects change as motion.
+</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/camera.png" alt="final design">
+        </div>
+      </div>
+
+
+      <div class="row featurette" id="rowz">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/twit.png" alt="twitter feed">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> Practical paint application </h2>
+          <p class="lead">TNavigate your browser of choice to Twitter/Dev and register a dev account.  Retrieve the appropriate tokens and set them up with Twython.  In your python script add a few lines of Twython to connect to that specific account / what message you want to tweet / who it is mentioning / and the source location of the photo.
+
+Make sure the Canon is overwriting the same location in the computer for consistency, make sure you are shooting in JPEG/ and make sure you are saving it to the computer.
+
+The Canon can be fired either by wiring a standard 2.5mm jack from the camera to the Pi with GPIO and pulsating on or off.  A second usb connection is required to retrieve the files from inside the camera and tweet them from the Pi..</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+      <!-- /END THE FEATURETTES -->
+  </div>
+      <div class="container">
+        <a class="btn btn-default" href="index.html" role="button" id="homebutton">Home</a>
+      </div>
+		
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="../../dist/js/bootstrap.min.js"></script>
+    	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+</html>
